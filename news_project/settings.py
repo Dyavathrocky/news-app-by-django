@@ -25,7 +25,7 @@ SECRET_KEY = 'ex6px!%u&auy*djt!@@nk4xz(n)3-a_(s3euh#5r+qxu0)(11c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -138,6 +138,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST_PASSWORD = 'sendgrid_id_password'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
